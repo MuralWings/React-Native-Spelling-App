@@ -1,10 +1,10 @@
-//imnports basic stuff
+
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity,Image } from 'react-native';
 
 
 
-/// handles the change in pages when someone clicks the buttons 
+
 const HomeScreen = ({ navigation }) => {
   const handlePlayPress = () => {
     navigation.navigate('Play');
@@ -12,7 +12,7 @@ const HomeScreen = ({ navigation }) => {
   const handlePlayPress2 = () => {
     navigation.navigate('Settings');
   };
-///makes buttons and picks where they  they go and how they look
+
   return (
     <View style={styles.container}>
     <Image source={require('/assets/bee.png')}
