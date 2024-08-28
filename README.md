@@ -1,5 +1,5 @@
-Made with react native in expo snack
+Made with React Native in  Expo Snack
 
 code is not that good 
 
-first school project
+
