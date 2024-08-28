@@ -411,7 +411,7 @@ export default function App() {
     setReplayButton(true);
     setCorrectText(false);
     setWordIndex(randomIndex);
-    ///sets the anwser and the word that is playing
+  
     setAudioWord(wordList[randomIndex]);
     console.log(wordList[randomIndex]);
     setCorrectAnswer(wordList[randomIndex]);
